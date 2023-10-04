@@ -17,7 +17,7 @@ def user_login(request):
                     login(request,user)
                     return HttpResponse('Auth successfully')
             else:
-                return HttpResponse('Disamled account')    
+                return HttpResponse('Disambled account')    
         else:
             return HttpResponse('Invalid login')
     else:
