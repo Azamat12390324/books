@@ -1,6 +1,6 @@
 {% extends 'base.html' %} 
 
-{% block title %}Log-in{% endblock%}
+{% block title %}Log-in{% endblock %}
     <h1>Log-in</h1>
     <p>Iltimos registratsiya qiling</p>
     <form method="POST">
@@ -8,6 +8,4 @@
         {% csrf_token %}
         <p><input type="submit" value="Log in"></p>
     </form>
-
-
 {% endblock %}
